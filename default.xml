@@ -8,7 +8,8 @@
   <remote fetch="http://git.yoctoproject.org" name="yocto"/>
   
   <default revision="master" sync-j="4"/>
-  
+
+  <project name="linaro-home/meta-lhg" path="layers/meta-lhg" remote="github"/>
   <project name="96boards/meta-96boards" path="layers/meta-96boards" remote="github"/>
   <project name="96boards/meta-rpb" path="layers/meta-rpb" remote="github"/>
   <project name="OSSystems/meta-browser" path="layers/meta-browser" remote="github"/>
